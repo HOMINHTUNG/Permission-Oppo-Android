@@ -1,0 +1,364 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d9d2d2"
+    tools:context="elite.driver.adsmove.com.settingpermission.MainActivity">
+
+    <LinearLayout
+        android:id="@+id/lnReadFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgReadFile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtReadFile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Allows read external storage"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/icCheck_ReadFile"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_checkfalse" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnWriteFile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgWriteFile"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtWriteFile"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Allows write external storage"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/icCheck_WriteFile"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_checkfalse" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnCamera"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgCamera"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtCamera"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Allows camera"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/icCheck_Camera"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_checkfalse" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnFineLocation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgFineLocation"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtFineLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Allows fine location"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/icCheck_FineLocation"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_checkfalse" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnCoarseLocation"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgCoarseLocation"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtCoarseLocation"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Allows coarse location"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/icCheck_CoarseLocation"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_checkfalse" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnBluetoothAdmin"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgBluetoothAdmin"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtBluetoothAdmin"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Allows bluetooth admin"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/icCheck_BluetoothAdmin"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_checkfalse" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnBluetooth"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgBluetooth"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtBluetooth"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Allows bluetooth"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/icCheck_Bluetooth"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_checkfalse" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lnAdministrator"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgAdministrator"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtAdministrator"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Allows administrator"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/icCheck_Administrator"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_checkfalse" />
+
+        </LinearLayout>
+        <LinearLayout
+        android:id="@+id/lnBattery"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="3dp"
+        android:background="#ffffff"
+        android:orientation="horizontal"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/imgBattery"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            app:srcCompat="@mipmap/ic_launcher" />
+
+        <TextView
+            android:id="@+id/txtBattery"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:layout_weight="1"
+            android:padding="2dp"
+            android:text="Allows battery optimization"
+            android:textSize="20dp" />
+
+        <ImageView
+            android:id="@+id/icCheck_Battery"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:padding="4dp"
+            app:srcCompat="@drawable/ic_checkfalse" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lnAutoStart"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgAutoStart"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@mipmap/ic_launcher" />
+
+            <TextView
+                android:id="@+id/txtAutoStart"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Allows auto start"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/icCheck_AutoStart"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_checkfalse" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>
