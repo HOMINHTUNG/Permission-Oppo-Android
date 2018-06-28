@@ -26,7 +26,7 @@
                 android:id="@+id/imgReadFile"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                app:srcCompat="@mipmap/ic_launcher" />
+                app:srcCompat="@drawable/ic_readfile" />
 
             <TextView
                 android:id="@+id/txtReadFile"
@@ -36,46 +36,11 @@
                 android:layout_marginRight="8dp"
                 android:layout_weight="1"
                 android:padding="2dp"
-                android:text="Allows read external storage"
+                android:text="Read/write external storage"
                 android:textSize="20dp" />
 
             <ImageView
                 android:id="@+id/icCheck_ReadFile"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
-                android:padding="4dp"
-                app:srcCompat="@drawable/ic_checkfalse" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/lnWriteFile"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="3dp"
-            android:background="#ffffff"
-            android:orientation="horizontal"
-            android:padding="8dp">
-
-            <ImageView
-                android:id="@+id/imgWriteFile"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                app:srcCompat="@mipmap/ic_launcher" />
-
-            <TextView
-                android:id="@+id/txtWriteFile"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_weight="1"
-                android:padding="2dp"
-                android:text="Allows write external storage"
-                android:textSize="20dp" />
-
-            <ImageView
-                android:id="@+id/icCheck_WriteFile"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:padding="4dp"
@@ -96,7 +61,7 @@
                 android:id="@+id/imgCamera"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                app:srcCompat="@mipmap/ic_launcher" />
+                app:srcCompat="@drawable/ic_readfile" />
 
             <TextView
                 android:id="@+id/txtCamera"
@@ -119,7 +84,7 @@
         </LinearLayout>
 
         <LinearLayout
-            android:id="@+id/lnFineLocation"
+            android:id="@+id/lnLocation"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:layout_marginTop="3dp"
@@ -128,94 +93,24 @@
             android:padding="8dp">
 
             <ImageView
-                android:id="@+id/imgFineLocation"
+                android:id="@+id/imgLocation"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                app:srcCompat="@mipmap/ic_launcher" />
+                app:srcCompat="@drawable/ic_readfile" />
 
             <TextView
-                android:id="@+id/txtFineLocation"
+                android:id="@+id/txtLocation"
                 android:layout_width="wrap_content"
                 android:layout_height="match_parent"
                 android:layout_marginLeft="8dp"
                 android:layout_marginRight="8dp"
                 android:layout_weight="1"
                 android:padding="2dp"
-                android:text="Allows fine location"
+                android:text="Allows location"
                 android:textSize="20dp" />
 
             <ImageView
-                android:id="@+id/icCheck_FineLocation"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
-                android:padding="4dp"
-                app:srcCompat="@drawable/ic_checkfalse" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/lnCoarseLocation"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="3dp"
-            android:background="#ffffff"
-            android:orientation="horizontal"
-            android:padding="8dp">
-
-            <ImageView
-                android:id="@+id/imgCoarseLocation"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                app:srcCompat="@mipmap/ic_launcher" />
-
-            <TextView
-                android:id="@+id/txtCoarseLocation"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_weight="1"
-                android:padding="2dp"
-                android:text="Allows coarse location"
-                android:textSize="20dp" />
-
-            <ImageView
-                android:id="@+id/icCheck_CoarseLocation"
-                android:layout_width="40dp"
-                android:layout_height="match_parent"
-                android:padding="4dp"
-                app:srcCompat="@drawable/ic_checkfalse" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/lnBluetoothAdmin"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_marginTop="3dp"
-            android:background="#ffffff"
-            android:orientation="horizontal"
-            android:padding="8dp">
-
-            <ImageView
-                android:id="@+id/imgBluetoothAdmin"
-                android:layout_width="30dp"
-                android:layout_height="30dp"
-                app:srcCompat="@mipmap/ic_launcher" />
-
-            <TextView
-                android:id="@+id/txtBluetoothAdmin"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_marginLeft="8dp"
-                android:layout_marginRight="8dp"
-                android:layout_weight="1"
-                android:padding="2dp"
-                android:text="Allows bluetooth admin"
-                android:textSize="20dp" />
-
-            <ImageView
-                android:id="@+id/icCheck_BluetoothAdmin"
+                android:id="@+id/icCheck_Location"
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:padding="4dp"
@@ -236,7 +131,7 @@
                 android:id="@+id/imgBluetooth"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                app:srcCompat="@mipmap/ic_launcher" />
+                app:srcCompat="@drawable/ic_readfile" />
 
             <TextView
                 android:id="@+id/txtBluetooth"
@@ -270,7 +165,7 @@
                 android:id="@+id/imgAdministrator"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                app:srcCompat="@mipmap/ic_launcher" />
+                app:srcCompat="@drawable/ic_readfile" />
 
             <TextView
                 android:id="@+id/txtAdministrator"
@@ -304,7 +199,7 @@
             android:id="@+id/imgBattery"
             android:layout_width="30dp"
             android:layout_height="30dp"
-            app:srcCompat="@mipmap/ic_launcher" />
+            app:srcCompat="@drawable/ic_readfile" />
 
         <TextView
             android:id="@+id/txtBattery"
@@ -338,7 +233,7 @@
                 android:id="@+id/imgAutoStart"
                 android:layout_width="30dp"
                 android:layout_height="30dp"
-                app:srcCompat="@mipmap/ic_launcher" />
+                app:srcCompat="@drawable/ic_readfile" />
 
             <TextView
                 android:id="@+id/txtAutoStart"
@@ -356,7 +251,77 @@
                 android:layout_width="40dp"
                 android:layout_height="match_parent"
                 android:padding="4dp"
-                app:srcCompat="@drawable/ic_checkfalse" />
+                app:srcCompat="@drawable/ic_next" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnEnergySaver"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgEnergySaver"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_readfile" />
+
+            <TextView
+                android:id="@+id/txtEnergySaver"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Allows energy saver"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/icCheck_EnergySaver"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_next" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/lnLowPowerMode"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="3dp"
+            android:background="#ffffff"
+            android:orientation="horizontal"
+            android:padding="8dp">
+
+            <ImageView
+                android:id="@+id/imgLowPowerMode"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                app:srcCompat="@drawable/ic_readfile" />
+
+            <TextView
+                android:id="@+id/txtLowPowerMode"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_weight="1"
+                android:padding="2dp"
+                android:text="Allows low power mode"
+                android:textSize="20dp" />
+
+            <ImageView
+                android:id="@+id/icCheck_LowPowerMode"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:padding="4dp"
+                app:srcCompat="@drawable/ic_next" />
 
         </LinearLayout>
     </LinearLayout>
